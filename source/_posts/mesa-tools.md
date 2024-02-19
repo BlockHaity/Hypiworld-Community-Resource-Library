@@ -12,7 +12,7 @@ cover: /files/mesa系列辅助工具/cover.png
 
 资源作者：TexTrue，ThinkingStudio，Matti Ruohonen
 
-此资源包含了Tweakroo，投影mod的forge移植版，拥有很多在生存中有极大帮助的功能，如灵魂出窍，死亡发送坐标等功能
+此资源包含了tweakeroo，投影mod的forge移植版，拥有很多在生存中有极大帮助的功能，如灵魂出窍，死亡发送坐标等功能
 
 使用x+c打开Tweakerge（Tweakeroo）模组GUI
 
