@@ -4,7 +4,7 @@ date: 2024-02-19 21:15:10
 tags: 
     -   小地图
 categories: 辅助
-cover: /files/journeymap/cover.jpg
+cover: /files/journeymap/cover.png
 ---
 
 发布者：BlockHaity
