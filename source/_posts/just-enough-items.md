@@ -5,6 +5,7 @@ tags:
     -   物品管理
     -   指南
 categories: 辅助
+cover: /files/just-enough-items/cover.png
 ---
 
 发布者：BlockHaity
