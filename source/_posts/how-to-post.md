@@ -7,10 +7,11 @@ categories: 开发者相关
 ---
 
 发布者：BlockHaity
+修改：BaimoQilin
 
 # 注意
 
-在投稿前，请确认你的资源不会违反hypiworld玩家协议，我们会不定期删除违反hypiworld玩家协议的资源。
+在投稿前，请确认你的资源不会违反Hypiworld玩家协议，我们会不定期删除违反Hypiworld玩家协议的资源。
 
 # 可供参考的文档
 
@@ -24,8 +25,18 @@ categories: 开发者相关
 
 ## PR方法
 
-此方法需要Github账号
+两种方法均需要Github账号
 
+### 轻量
+
+本方法无需安装hexo。
+
+1. fork [BlockHaity/Hypiworld-Community-Resource-Library](https://github.com/BlockHaity/Hypiworld-Community-Resource-Library)并clone到本地。
+2. 在`source/_posts`中复制一份模版的markdown文件，命名为文章标题的英文。
+3. 使用Markdown语法编辑文章。
+4. commit&push&pull requests即可
+
+### 标准
 首先，安装相关依赖
 
 ``` 
