@@ -15,7 +15,7 @@ site:
   description: 一个为Hypiworld机械筑梦MC服务器所搭建的社区资源站
   link: '/'
   language: cn
-  multi_language: false
+  multi_language: true
   logo: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
   avatar: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
   beian:
