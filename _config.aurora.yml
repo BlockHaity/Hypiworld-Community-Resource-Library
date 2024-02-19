@@ -9,13 +9,13 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: hypiworld社区资源站
-  author: hypiworld社区资源站
-  nick: 一个为hypiworld机械筑梦MC服务器所搭建的社区资源站
-  description: 一个为hypiworld机械筑梦MC服务器所搭建的社区资源站
+  subtitle: Hypiworld社区资源站
+  author: Hypiworld社区资源站
+  nick: 一个为Hypiworld机械筑梦MC服务器所搭建的社区资源站
+  description: 一个为Hypiworld机械筑梦MC服务器所搭建的社区资源站
   link: '/'
   language: cn
-  multi_language: true
+  multi_language: false
   logo: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
   avatar: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
   beian:
