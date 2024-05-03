@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Hypiworld社区资源站 Wiki](README.md)
+
 ## 用户使用
 
-* [安装Mod](README.md)
+* [安装Mod](<README (1).md>)
 * [导入结构](yong-hu-shi-yong/dao-ru-jie-gou.md)
 * [导入资源包](yong-hu-shi-yong/dao-ru-zi-yuan-bao.md)
 
