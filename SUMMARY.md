@@ -4,7 +4,7 @@
 
 ## 用户使用
 
-* [安装Mod](<README (1).md>)
+* [安装Mod](yong-hu-shi-yong/an-zhuang-mod.md)
 * [导入结构](yong-hu-shi-yong/dao-ru-jie-gou.md)
 * [导入资源包](yong-hu-shi-yong/dao-ru-zi-yuan-bao.md)
 
