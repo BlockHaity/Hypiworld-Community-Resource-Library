@@ -14,10 +14,10 @@ site:
   nick: 一个为Hypiworld机械筑梦MC服务器所搭建的社区资源站
   description: 一个为Hypiworld机械筑梦MC服务器所搭建的社区资源站
   link: '/'
-  language: cn
-  multi_language: true
-  logo: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
-  avatar: https://i.mcmod.cn/play/favicon/20187716.png?r=Frzj
+  language: zh-CN
+  multi_language: false
+  logo: /image/logo.png
+  avatar: /image/logo.png
   beian:
     number: ''
     link: ''
@@ -52,10 +52,13 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: false
-  Tags: true
-  Archives: false
-  Friends: false
+  Wiki: 
+    name: 'Wiki'
+    path: '/wiki/'
+  notice: 
+    name: '公告'
+    path: '/notice/'
+
 
 #! ---------------------------------------------------------------
 #! Theme Config

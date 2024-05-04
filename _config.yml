@@ -8,7 +8,7 @@ subtitle: '一个为hypiworld机械筑梦MC服务器所搭建的社区资源站'
 description: ''
 keywords:
 author: hypiworld社区资源站
-language: zh-cn
+language: cn
 timezone: ''
 
 # URL
@@ -29,6 +29,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'wiki/**'
+  - 'gitbook/**'
+  - 'image/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
