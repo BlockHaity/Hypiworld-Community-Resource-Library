@@ -12,7 +12,8 @@ cover: /files/just-enough-items/cover.png
 
 资源作者：mezz
 
-一个物品管理MOD，他可以帮助你进行一下操作
+一个物品管理MOD，他可以帮助你进行以下操作
+
     -   查询合成表
     -   快速合成
     -   快速查找物品
