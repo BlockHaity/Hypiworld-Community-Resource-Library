@@ -10,9 +10,10 @@
 
 ## 开发者相关
 
+* [如何投稿](kai-fa-zhe-xiang-guan/ru-he-tou-gao.md)
 * [资源包投稿标准](kai-fa-zhe-xiang-guan/zi-yuan-bao-tou-gao-biao-zhun.md)
-* [资源包投稿模板](kai-fa-zhe-xiang-guan/zi-yuan-bao-tou-gao-mo-ban.md)
+    * [资源包投稿模板](kai-fa-zhe-xiang-guan/zi-yuan-bao-tou-gao-mo-ban.md)
 * [结构资源投稿标准](kai-fa-zhe-xiang-guan/jie-gou-zi-yuan-tou-gao-biao-zhun.md)
-* [结构资源投稿模板](kai-fa-zhe-xiang-guan/jie-gou-zi-yuan-tou-gao-mo-ban.md)
+    * [结构资源投稿模板](kai-fa-zhe-xiang-guan/jie-gou-zi-yuan-tou-gao-mo-ban.md)
 * [Mod资源投稿标准](kai-fa-zhe-xiang-guan/mod-zi-yuan-tou-gao-biao-zhun.md)
-* [Mod资源投稿模板](kai-fa-zhe-xiang-guan/mod-zi-yuan-tou-gao-mo-ban.md)
+    * [Mod资源投稿模板](kai-fa-zhe-xiang-guan/mod-zi-yuan-tou-gao-mo-ban.md)

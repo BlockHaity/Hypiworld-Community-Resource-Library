@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "hints", "-lunr", "-search", "search-pro", "chapter-fold", "code", "splitter", "back-to-top-button", "insert-logo"
+    ], 
+    "pluginsConfig": {
+        "insert-logo": {
+            "url": "/wiki/image/logo.png", 
+            "style": "background: none; max-height: 30px; min-height: 30px"
+        }
+    }
+}
