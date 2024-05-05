@@ -206,4 +206,6 @@ Q: 本模组使用的许可协议是什么？
 
 A: ModernUI 和 ModernUI-MC 的源码和二进制形式都是LGPL-3.0-or-later。
 
+# 下载
+
 文件 [ModernUI-Forge-1.20.1-3.10.1.4-universal.jar](https://cdn.modrinth.com/data/3sjzyvGR/versions/NuEoZJJF/ModernUI-Forge-1.20.1-3.10.1.4-universal.jar)
