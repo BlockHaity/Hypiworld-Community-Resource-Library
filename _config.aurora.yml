@@ -63,7 +63,7 @@ menu:
     i18n: 
       zh-CN: '公告'
       en: 'notces'
-    path: 'https://hypiworldcrs-blockhaity.netlify.app/notice/'
+    path: 'https://hypiworldcrs-blockhaity.netlify.app/page/notice/'
 
 
 #! ---------------------------------------------------------------
