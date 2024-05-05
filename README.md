@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://hypiworldcrs-blockhaity.netlify.app" alt="logo" ><img src="https://github.com/BlockHaity/Hypiworld-Community-Resource-Library/raw/main/source/files/station/logo/icon.png" width="150"/></a>
+  <a href="https://hypiworldcrs-blockhaity.netlify.app" alt="logo" ><img src="https://hypiworldcrs-blockhaity.netlify.app/image/logo.png" width="150"/></a>
   <br>
   Hypiworld社区资源站
   <br>
