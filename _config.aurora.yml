@@ -54,10 +54,10 @@ authors:
 menu:
   Wiki: 
     name: 'Wiki'
-    path: '/wiki/'
+    path: 'https://hypiworldcrs-blockhaity.netlify.app/wiki/'
   notice: 
     name: '公告'
-    path: '/notice/'
+    path: 'https://hypiworldcrs-blockhaity.netlify.app/notice/'
 
 
 #! ---------------------------------------------------------------
@@ -65,7 +65,7 @@ menu:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: false
+  dark_mode: auto
   profile_shape: rounded # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
