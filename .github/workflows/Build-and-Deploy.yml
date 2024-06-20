@@ -1,9 +1,9 @@
-name: Deploy Hexo to HTML Branch
+name: Hexo Deploy to HTML Branch
 
 on:
   push:
     branches:
-      - main  # 触发构建的分支，根据你的主分支名称修改
+      - main  # 触发条件，当 main 分支有 push 事件时触发
 
 jobs:
   build-and-deploy:
@@ -13,24 +13,37 @@ jobs:
     - name: Checkout Source
       uses: actions/checkout@v2  # 检出代码
 
-    - name: Setup Node.js
+    - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20'  # 使用 Node.js 14，根据你的项目需求修改
+        node-version: '20'  # 选择 Node.js 版本
 
     - name: Install Dependencies
-      run: npm install  # 安装 Hexo 项目依赖
+      run: npm install  # 安装 Hexo 依赖
 
-    - name: Build Hexo
-      run: npm run build  # 构建 Hexo 项目，确保你的 package.json 中有 "build" 脚本
+    - name: Hexo Generate
+      run: npm run build  # 构建 Hexo 静态文件
 
     - name: Deploy to HTML Branch
       run: |
-        git config --global user.email "1216692740@qq.com"
-        git config --global user.name "BlockHaity"
-        git checkout --orphan html
+        # 配置 git 用户信息
+        git config --global user.email "your-email@example.com"
+        git config --global user.name "Your Name"
+
+        # 切换到 HTML 分支
+        git checkout -b html
+
+        # 清除当前分支内容
         git rm -rf .
-        cp -r ./public/* ./
+
+        # 复制生成的静态文件到 HTML 分支
+        cp -r ./public/* .
+
+        # 添加所有文件到 git
         git add .
-        git commit -m "Update HTML branch"
+
+        # 提交更改
+        git commit -m "Update HTML branch with latest build"
+
+        # 推送到远程 HTML 分支
         git push origin html --force
