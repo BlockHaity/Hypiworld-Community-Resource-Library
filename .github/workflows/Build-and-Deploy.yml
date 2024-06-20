@@ -28,7 +28,7 @@ jobs:
       run: |
         # 配置 git 用户信息
         git config --global user.email "Action@github.com"
-        git config --global user.name "Github Actions"
+        git config --global user.name "github-actions[bot]"
 
         # 切换到 HTML 分支
         git checkout -b html
