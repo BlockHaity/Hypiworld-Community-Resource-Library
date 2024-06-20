@@ -27,8 +27,8 @@ jobs:
     - name: Deploy to HTML Branch
       run: |
         # 配置 git 用户信息
-        git config --global user.email "your-email@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "Action@github.com"
+        git config --global user.name "Github Actions"
 
         # 切换到 HTML 分支
         git checkout -b html
