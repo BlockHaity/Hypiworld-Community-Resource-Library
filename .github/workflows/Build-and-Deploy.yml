@@ -31,7 +31,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
 
         # 切换到 HTML 分支
-        git checkout -b html
+        git checkout -b HTML
 
         # 清除当前分支内容
         git rm -rf .
@@ -46,4 +46,4 @@ jobs:
         git commit -m "Update HTML branch with latest build"
 
         # 推送到远程 HTML 分支
-        git push origin html --force
+        git push origin HTML --force
