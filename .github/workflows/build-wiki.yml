@@ -32,8 +32,8 @@ jobs:
         rm -rf main/source/wiki/*
         cp -rf _book/* main/source/wiki/  # 复制静态文件
         cd main
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
+        git config --global user.email "1216692740@qq.com"
+        git config --global user.name "BlockHaity"
         git add source/wiki
         git commit -m "Update wiki static pages" || true  # 如果没有更改则不提交
         git push origin main
