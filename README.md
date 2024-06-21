@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">一个为Hypiworld机械筑梦服务器搭建的社区资源站<br>当前站点版本“noble-Ver.1”</h4>
+<h4 align="center">一个为Hypiworld机械筑梦服务器搭建的社区资源站<br>当前站点版本“noble-Ver.2”</h4>
 
 [![Deploy Hexo to HTML Branch](https://github.com/BlockHaity/Hypiworld-Community-Resource-Library/actions/workflows/Build-and-Deploy.yml/badge.svg)](https://github.com/BlockHaity/Hypiworld-Community-Resource-Library/actions/workflows/Build-and-Deploy.yml)
 
