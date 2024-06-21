@@ -21,10 +21,10 @@ jobs:
         node-version: '10'  # 选择 Node.js 版本
 
     - name: Install GitBook
-      run: npm install -g gitbook-cli  # 安装 gitbook-cli
+      run: npm install -g gitbook-cli && gitbook fetch # 安装 gitbook-cli
 
     - name: Build GitBook
-      run: gitbook fetch && gitbook install && gitbook build  # 构建 GitBook 静态文件
+      run: gitbook install && gitbook build  # 构建 GitBook 静态文件
 
     - name: Deploy to Main Branch
       run: |
@@ -32,10 +32,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
 
         # 创建一个新分支，如果已存在则切换到该分支
-        git checkout main || git checkout -b main
-
-        # 确保 source/wiki 目录存在
-        mkdir -p source/wiki
+        git checkout -b main
 
         # 清除 source/wiki 目录内容
         rm -rf source/wiki/*
