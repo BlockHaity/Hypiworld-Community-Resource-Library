@@ -57,7 +57,7 @@ menu:
     i18n:
       zh-CN: '文档'
       en: 'Wiki'
-    path: '/wiki/'
+    path: '/wiki/index.html'
   notice: 
     name: 'notices'
     i18n: 
