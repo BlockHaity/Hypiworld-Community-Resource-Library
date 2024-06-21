@@ -24,28 +24,6 @@ jobs:
       run: npm install -g gitbook-cli && gitbook fetch # 安装 gitbook-cli
 
     - name: Build GitBook
-      run: gitbook install && gitbook build  # 构建 GitBook 静态文件
-
-    - name: Deploy to Main Branch
       run: |
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-
-        # 创建一个新分支，如果已存在则切换到该分支
-        git checkout -b main
-
-        # 清除 source/wiki 目录内容
-        rm -rf source/wiki/*
-        ls
-
-        # 将构建的静态文件复制到 source/wiki 目录
-        cp -rf _book/* source/wiki/
-
-        # 添加所有文件到 git
-        git add source/wiki
-
-        # 提交更改
-        git commit -m "Deploy GitBook to main branch"
-
-        # 推送到远程 main 分支
-        git push origin main
+      gitbook install && gitbook build  # 构建 GitBook 静态文件
+      ls
