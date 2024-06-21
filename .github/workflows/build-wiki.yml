@@ -36,9 +36,10 @@ jobs:
 
         # 清除 source/wiki 目录内容
         rm -rf source/wiki/*
+        ls
 
         # 将构建的静态文件复制到 source/wiki 目录
-        cp -r _book/* source/wiki/
+        cp -rf _book/* source/wiki/
 
         # 添加所有文件到 git
         git add source/wiki
