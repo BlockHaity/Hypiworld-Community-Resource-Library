@@ -57,7 +57,7 @@ menu:
     i18n:
       zh-CN: '文档'
       en: 'Wiki'
-    path: '/wiki/index.html'
+    path: 'https://hypiworldcrs-blockhaity.pages.dev/wiki/'
   notice: 
     name: 'notices'
     i18n: 
