@@ -1,11 +1,27 @@
 {
     "plugins": [
-        "hints", "-lunr", "-search", "search-pro", "chapter-fold", "code", "splitter", "back-to-top-button", "insert-logo"
-    ], 
+        "theme-fexa",
+        "hints",
+        "-search",
+        "search-pro",
+        "back-to-top-button"
+    ],
+    "variables": {
+        "themeFexa": {
+            "nav": [
+                {
+                    "url": "https://hypiworldcrs-blockhaity.pages.dev/",
+                    "target": "_blank",
+                    "name": "回到社区资源站"
+                }
+            ]
+        }
+    },
     "pluginsConfig": {
-        "insert-logo": {
-            "url": "/wiki/image/logo.png", 
-            "style": "background: none; max-height: 30px; min-height: 30px"
+        "theme-fexa": {
+            "search-placeholder": "输入关键字搜索",
+            "logo": "https://hypiworldcrs-blockhaity.pages.dev/image/logo.png",
+            "favicon": "https://hypiworldcrs-blockhaity.pages.dev/image/logo.png"
         }
     }
 }

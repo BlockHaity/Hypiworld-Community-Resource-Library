@@ -1,4 +1,3 @@
-# Hypiworld社区资源站 Wiki
 
 <h1 align="center">
   <br>
