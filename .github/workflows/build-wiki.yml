@@ -26,14 +26,12 @@ jobs:
     - name: Build GitBook
       run: gitbook build .  # 构建 GitBook 静态文件
 
-    - name: Prepare to Deploy
-      run: |
-        git checkout main  # 切换到 main 分支
-        mkdir -p source/wiki  # 确保目录存在
-      
     - name: Deploy to Main Branch
       run: |
-        cp -rf _book/* source/wiki/  # 复制静态文件
+        git clone https://github.com/BlockHaity/Hypiworld-Community-Resource-Library.git main
+        rm -rf main/source/wiki/*
+        cp -rf _book/* main/source/wiki/  # 复制静态文件
+        cd main
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add source/wiki
