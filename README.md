@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://hypiworldcrs-blockhaity.netlify.app" alt="logo" ><img src="image/logo.png" width="150"/></a>
+  <a href="https://hypiworldcrs-blockhaity.pages.dev" alt="logo" ><img src="image/logo.png" width="150"/></a>
   <br>
   Hypiworld社区资源站
   <br>
