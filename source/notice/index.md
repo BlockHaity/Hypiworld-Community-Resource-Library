@@ -9,7 +9,7 @@ date: 2024-05-04 22:17:35
 
 ## 新内容
 
- - 站点从Netlify迁移到Cloudflare Pages,提升访问速度的同时支持大文件代理和下载。
+ - 站点从Netlify迁移到Cloudflare Pages,提升访问速度的同时支持25MB以下文件代理和下载。
 
  - 全面翻新Wiki。
 
