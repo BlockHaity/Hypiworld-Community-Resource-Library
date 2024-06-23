@@ -23,6 +23,6 @@ categories:
 
 复制下列链接到下载器内下载（推荐Motrix）
 
-mods.zip  https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/mods.zip
+mods.zip  https://github.moeyy.xyz/https://media.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/mods.zip
 
-客户端.zip  https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/客户端.zip
+客户端.zip  https://github.moeyy.xyz/https://media.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/客户端.zip
