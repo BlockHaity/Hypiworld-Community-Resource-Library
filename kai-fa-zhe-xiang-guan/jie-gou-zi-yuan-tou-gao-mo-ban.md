@@ -27,7 +27,7 @@ cover: https://examples.com/cover.png
 
 ### 尾部文件链接
 
-本站已迁移到Cloudflare Pages，现已支持25MB以下文件文件下载托管。若要托管到本站，请将你的资源放在`source`文件夹中`files`文件夹中以文章命名的文件夹中。调用方式如下
+本站已迁移到Cloudflare Pages，现已支持25MB以下文件文件直接下载托管。若要托管到本站，请将你的资源放在`source`文件夹中`files`文件夹中以文章命名的文件夹中。调用方式如下
 
 ``` markdown
 文件 [文件名](/files/文章名/文件名)
