@@ -21,7 +21,8 @@ categories:
 
 感谢[Moeyy](https://moeyy.cn)提供的[ghproxy](https://moeyy.cn/gh-proxy)服务
 
-文件 [mods.zip](https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/mods.zip)
+复制下列链接到下载器内下载（推荐Motrix）
 
-文件 [客户端.zip](https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/客户端.zip)
+mods.zip  https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/mods.zip
 
+客户端.zip  https://github.moeyy.xyz/https://raw.githubusercontent.com/BlockHaity/Hypiworld-Community-Resource-Library/main/source/mirror/客户端.zip
