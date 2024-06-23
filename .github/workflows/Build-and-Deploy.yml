@@ -39,6 +39,9 @@ jobs:
         # 复制生成的静态文件到 HTML 分支
         cp -r ./public/* .
 
+        # 删除资源镜像保证Cf Pages成功推送
+        rm -f files/mirror/*.zip
+
         # 添加所有文件到 git
         git add .
 
